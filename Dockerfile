@@ -11,14 +11,14 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application
-COPY . .
+COPY app.py /app.py
 
 # Set default environment variables
-ENV PYTHONUNBUFFERED=1 \
-    PORT=8000
+#ENV PYTHONUNBUFFERED=1 \
+    #PORT=8000
 
 # Expose the port the app runs on
-EXPOSE $PORT
+EXPOSE 80
 
 # Command to run the application
-CMD ["python", "app.py"]
+CMD ["python", "/app.py"]
