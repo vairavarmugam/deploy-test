@@ -6,3 +6,4 @@ git add .
 git status
 git commit -m "files added"
 git push
+python3 image-pull.py --image mysql --tag 8.0 --yaml pyhton-deployment.yml

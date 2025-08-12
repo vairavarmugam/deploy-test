@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: python-deployment
   labels:
     app: python
+  name: python-deployment
 spec:
   replicas: 2
   selector:
@@ -15,9 +15,11 @@ spec:
         app: python
     spec:
       containers:
-      - name: python
-        image: vairavarumu/deploy-test:v5
-        command: ["sleep", "9999"]
+      - command:
+        - sleep
+        - '9999'
+        image: mysql:8.0
+        name: python
         ports:
         - containerPort: 80
 ---
@@ -26,12 +28,11 @@ kind: Service
 metadata:
   name: python-service
 spec:
-  type: NodePort
+  ports:
+  - nodePort: 30090
+    port: 80
+    protocol: TCP
+    targetPort: 80
   selector:
     app: python
-  ports:
-  - protocol: TCP
-    port: 80          # Service port
-    targetPort: 80    # Container port
-    nodePort: 30090   # NodePort (choose any port between 30000-32767)
-
+  type: NodePort
