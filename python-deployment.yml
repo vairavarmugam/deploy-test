@@ -15,11 +15,8 @@ spec:
         app: python
     spec:
       containers:
-      - command:
-        - sleep
-        - '9999'
-        image: mysql:8.0
-        name: python
+      - name: python
+        image: nginx:v1
         ports:
         - containerPort: 80
 ---
@@ -28,11 +25,12 @@ kind: Service
 metadata:
   name: python-service
 spec:
-  ports:
-  - nodePort: 30090
-    port: 80
-    protocol: TCP
-    targetPort: 80
+  type: NodePort
   selector:
     app: python
-  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+    nodePort: 30090
+
