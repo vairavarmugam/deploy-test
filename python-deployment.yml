@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: python-deployment
   labels:
     app: python
+  name: python-deployment
 spec:
-  replicas: 2
+  replicas: 0
   selector:
     matchLabels:
       app: python
@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: python
-        image: vairavarumu/deploy-test:v5
-        command: ["sleep", "9999"]
+        image: nginx:v1
         ports:
         - containerPort: 80
 ---
@@ -31,7 +30,7 @@ spec:
     app: python
   ports:
   - protocol: TCP
-    port: 80          # Service port
-    targetPort: 80    # Container port
-    nodePort: 30090   # NodePort (choose any port between 30000-32767)
+    port: 80
+    targetPort: 80
+    nodePort: 30090
 

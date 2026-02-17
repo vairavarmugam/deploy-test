@@ -1,0 +1,1000 @@
+  304  ls
+  305  cd terra_playground/
+  306  vi main.tf
+  307  vim main.tf
+  308  vi main.tf
+  309  ls
+  310  cl
+  311  touch main.tf
+  312  cat >> main.tf
+  313  cl
+  314  la
+  315  cat main.tf 
+  316  cat >> main.tf 
+  317  cat main.tf 
+  318  cl
+  319  terraform init
+  320  terraform plan
+  321  terraform apply
+  322  ls
+  323  cat hello.txt 
+  324  ls -
+  325  ls -l
+  326  ls -a
+  327  ls -la
+  328  cat terraform.tfstate 
+  329  terraform plan
+  330  terraform --help
+  331  cl
+  332  terraform --help
+  333  cl
+  334  touch sample.txt
+  335  cat >> sample.txt
+  336  cat sample.txt 
+  337  ls
+  338  terraform import sample.txt 
+  339  cl
+  340  terraform plan
+  341  ls
+  342  [200~terraform import local_file.example hello.txt~
+  343  terraform import local_file.example sample.txt
+  344  terraform import sample.txt hello.txt
+  345  ls
+  346  vi main.tf 
+  347  apt install vim
+  348  vim main.tf 
+  349  terraform import local_file.example sample.txt
+  350  terraform init
+  351  terraform import local_file.example sample.txt
+  352  terraform plan
+  353  terraform apply --help
+  354  terraform apply 
+  355  ls
+  356  ls -la
+  357  cat main.tf 
+  358  vim main.tf 
+  359  terraform init
+  360  ls
+  361  cat main.tf 
+  362  vim main.tf 
+  363  terraform init
+  364  terraform plan
+  365  terraform import local_file.example1 hello.txt
+  366  terraform apply
+  367  ls
+  368  rm -f sample.txt 
+  369  ls
+  370  terraform init
+  371  terraform plan
+  372  terraform apply
+  373  ls
+  374  vim main.tf 
+  375  ls
+  376  cp -r hello.txt second.txt
+  377  ls
+  378  vi main.tf 
+  379  terraform init
+  380  terraform import local_file.second_file second.txt 
+  381  vi main.tf 
+  382  terraform import local_file.second_file second.txt 
+  383  vi main.tf 
+  384  ls -l
+  385  ls -la
+  386  vi main.tf 
+  387  terraform init
+  388  terraform state list
+  389* 
+  390  ls
+  391  terraform init
+  392  terraform plan && terraform apply 
+  393  terraform init
+  394  vim main.tf 
+  395  cd
+  396  pwd
+  397  docker --version
+  398  apt get-update
+  399  apt-get update
+  400  apt-get install docker.io -y
+  401  systemctl enable docker
+  402  systemctl status docker
+  403  systemctl start docker
+  404  usermod -aG docker $USER && newgrp docker
+  405  exit
+  406  clear
+  407  minikube status
+  408  minikube start
+  409  minikube status
+  410  minikube start 
+  411  minikube start --force
+  412  minikube status
+  413  kubectl get pods
+  414  kubectl get pods -a
+  415  kubectl get pods -A
+  416  kubectl get ns
+  417  clear
+  418  docker --version
+  419  kubectl version
+  420  pyhton3 --version
+  421  apt-get update
+  422  apt install python3.10
+  423  apt install python3
+  424  pyhton3 --version
+  425  pyhton --version
+  426  pyhton
+  427  python3 --version
+  428  clear
+  429  docker pull vairavarumu/customubun:latest
+  430  git clone https://github.com/vairavarmugam/deploy_test.git
+  431  ls
+  432  cd deploy_test/
+  433  ls
+  434  ls -l
+  435  cd
+  436  vi .bashrc
+  437  source .bash
+  438  source .bashrc 
+  439  ll
+  440  vi .bashrc
+  441  ll
+  442  pwd
+  443  cd -
+  444  ls
+  445  ll
+  446  docker build -t deploy_test:sample-v1
+  447  dockerr build --help
+  448  docker build --help
+  449  docker buildx build -t deploy_test:sample-v1
+  450  docker build -t .
+  451  docker buildx build -t vairavarumu/deploy_test:sample-v1
+  452  docker build -t .
+  453  docker buildx -t vairavarumu/deploy_test:sample-v1
+  454  docker build buildx -t vairavarumu/deploy_test:sample-v1
+  455  docker buildx platform linux/amd64 -t vairavarumu/deploy_test:sample-v1
+  456  docker buildx build platform linux/amd64 -t vairavarumu/deploy_test:sample-v1
+  457  ls
+  458  ll
+  459  docker build 
+  460  docker build --help
+  461  docker builder build --help
+  462  docker builder build -t .
+  463  docker buildx build platform linux/amd64 -t vairavarumu/deploy_test:sample-v1
+  464  docker buildx create --use --name multiarch-builder
+  465  docker buildx inspect --bootstrap
+  466  docker login
+  467  docker buildx build platform linux/amd64 -t vairavarumu/deploy_test:sample-v1
+  468  docker builder build -t .
+  469  docker build -t .
+  470  docker buildx build -t .
+  471  docker builder  ls
+  472  docker buildx create --use --name multiarch-builder
+  473  docker buildx inspect --bootstrap
+  474  docker builder build -t .
+  475  docker buildx ls
+  476  docker version
+  477  # Ensure the image name matches your Docker Hub username
+  478  docker buildx build -t vairavarumu/deploy_test:sample-v1 --push .
+  479  docker run --elp
+  480  docker run --help
+  481  docker build -t vairavarumu/deploy-test:v1 .
+  482  docker ls
+  483  docker image 
+  484  docker image ls
+  485  docker push vairavarumu/deploy-test:v1 
+  486  docker tag python:3.9-silm vairavarumu/deploy-test:v1
+  487  docker tag ef8158ff2e1f vairavarumu/deploy-test:v1
+  488  docker image ls
+  489  
+  490  docker push vairavarumu/deploy_test:v1 
+  491  docker build -t  vairavarumu/deploy_test:v1 
+  492  vi app.py 
+  493  ll
+  494  cat README.md >> docker build -t vairavarumu/deploy-test:v1 .
+  495  vi README.md 
+  496  cat README.md >> "docker build -t vairavarumu/deploy-test:v1 ."
+  497  la
+  498  ll
+  499  cat >README.md 
+  500  cat README.md 
+  501  cat >> README.md 
+  502  cat README.md 
+  503  git status
+  504  vi  docker 
+  505  rm docker 
+  506  git status
+  507  git add .
+  508  git commit -m "files added"
+  509  git push 
+  510  ssh-keygen 
+  511  cd /root/.ssh/id_ed25519.pub
+  512  cd /root
+  513  ls
+  514  cd /.ssh
+  515  ll
+  516  cd .ssh/
+  517  ls
+  518  cat id_ed25519.pub
+  519  cd -
+  520  cd
+  521  ls
+  522  cd deploy_test/
+  523  ls
+  524  git status
+  525  git push
+  526  git remote -v
+  527  cd ..
+  528  cd -
+  529  git remote set-url origin git@github.com:username/repo.git
+  530  git remote set-url origin git@github.com:vairavarmugam/deploy_test.git
+  531  git remote set-url origin git@github.com:vairavarmugam/deploy-test.git
+  532  git remote -v
+  533  git push
+  534  cat >> README.md 
+  535  cat README.md 
+  536  git status
+  537  git add . && git commit -m"update"
+  538  git push
+  539  ls
+  540  cat app.py 
+  541  cat requirements.txt 
+  542  minikube status
+  543  kubectl get pods
+  544  kubectl get pods -A
+  545  git ls
+  546  git status
+  547  vim k8s-deploy.py
+  548  cd ..
+  549  pwd
+  550  vim k8s-deploy.py
+  551  vim docker-pull.py
+  552  pyhton3 docker-pull.py 
+  553  pyhton version
+  554  pyhton3 version
+  555  python3 docker-pull.py 
+  556  pip install pip3 install docker
+  557  pip3 install docker
+  558  pip install docker
+  559  apt install python3-pip
+  560  pip install docker
+  561  pip3 install docker
+  562  apt install pyhton-docker
+  563  apt install pyhton3-docker
+  564  apt install python3-docker
+  565  python3 docker-pull.py 
+  566  vim docker-pull.py 
+  567  python3 docker-pull.py 
+  568  vim docker-pull.py 
+  569  python3 docker-pull.py 
+  570  vim docker-pull.py 
+  571  ls
+  572  cd deploy_test/
+  573  ls
+  574  cat README.md 
+  575  ls
+  576  vim Dockerfile 
+  577  ls
+  578  cd ..
+  579  mkdir demo_deploy
+  580  ls
+  581  cd demo_deploy/
+  582  git clone https://github.com/vairavarmugam/deploy_demo.git
+  583  ls
+  584  cd
+  585  cd deploy_test/
+  586  ls
+  587  vim Dockerfile 
+  588  cd
+  589  ls
+  590  cd demo_deploy
+  591  ls
+  592  vim app.py
+  593  ls
+  594  rm app.py
+  595  cd ..
+  596  cd deploy_test
+  597  ls
+  598  find deploy_test
+  599  pwd
+  600  cd root
+  601  ls
+  602  cd deploy_test
+  603  lss
+  604  ls
+  605  cd
+  606  pwd
+  607  cd demo_deploy
+  608  ls
+  609  cd deploy_demo/
+  610  ls
+  611  vim Dockerfile
+  612  vim app.py
+  613  ls
+  614  cat Dockerfile 
+  615  docker built -t vairavarumu/demo-app
+  616  cd
+  617  cd deploy_test/
+  618  lss
+  619  ls
+  620  cat README.md 
+  621  cd 
+  622  ls
+  623  cd demo_deploy
+  624  ls
+  625  ll
+  626  cd deploy_demo/
+  627  ls
+  628  docker build -t vairavarumu/demo-app:v1
+  629  docker build -t demo-app:v1
+  630  cd
+  631  ls
+  632  cd depo
+  633  cd deploy_test/
+  634  ls
+  635  cat README.md 
+  636  cd
+  637  cd demo_depoy
+  638  cd demo_deploy
+  639  cd deploy_demo/
+  640  ls
+  641  docker build -t vairavarumu/deploy-demo:v1
+  642  cd
+  643  cd deploy_test/
+  644  ls
+  645  vim Dockerfile 
+  646  ls
+  647  cat app.oy
+  648  cat app.py
+  649  vim app.py 
+  650  ls
+  651  cat README.md 
+  652  docker build -t vairavarumu/deploy-test:v2
+  653  docker build -t vairavarumu/deploy-test:v2 .
+  654  ls
+  655  cat README.md 
+  656  docker image ls
+  657  docker tag d9dfe1996648 vairavarumu/deploy-test:v2 .
+  658  docker tag --help
+  659  docker image ls
+  660  docker build -t vairavarumu/deploy-test:v2 .
+  661  docker images
+  662  docker images | grep vairavarumu/deploy-test
+  663  ls
+  664  cat Dockerfile 
+  665  cd
+  666  ls
+  667  cd demo_deploy
+  668  ls
+  669  cd deploy_demo/
+  670  ls
+  671  docker build -t vairavarumu/demo_image:v1 .
+  672  docker images
+  673* 
+  674  docker build -t vairavarumu/demo-image:v1 .
+  675  docker push vairavarumu/demo-image:v1 .
+  676  cd
+  677  ls
+  678  cd deploy_test/
+  679  ls
+  680  cat README.md 
+  681  cd
+  682  cd demo_deploy
+  683  ls
+  684  cd deploy_demo/
+  685  ls
+  686  docker images
+  687  docker push vairavarumu/demo-image:v1
+  688  docker run -it vairavarumu/demo-image:v1
+  689  cat Dockerfile 
+  690* 
+  691  docker run -it vairavarumu/demo-image:v1
+  692  docker build -t vairavarumu/demo-image:v2 .
+  693  docker run -it vairavarumu/demo-image:v2
+  694  ls
+  695  cat app.py 
+  696  vim app.py 
+  697  docker run -it vairavarumu/demo-image:v2
+  698  docker images
+  699  vim app.py 
+  700  docker run -it vairavarumu/demo-image:v2
+  701  vim app.py 
+  702  docker build -t vairavarumu/demo-image:v3.
+  703  docker build -t vairavarumu/demo-image:v3 .
+  704  docker run -it vairavarumu/demo-image:v3
+  705  cat app.py 
+  706  docker images
+  707  docker push vairavarumu/demo-image:v3
+  708  mkdir k8s
+  709  cd k8s
+  710  vim deployment.yml
+  711  minikube status
+  712  kubectl apply -f deployment.yml
+  713  kubectl get pods
+  714  kubectl get svc
+  715  kubectl get pods
+  716  kubectl describe nginx-deployment-97666ffd5-qgkkl 
+  717  kubectl describe pod nginx-deployment-97666ffd5-qgkkl 
+  718  kubectl get pods
+  719  kubectl get logs
+  720  kubectl log nginx-deployment-97666ffd5-qgkkl 
+  721  kubectl logs nginx-deployment-97666ffd5-qgkkl 
+  722  kubectl get svc
+  723  minikube service nginx-service --url
+  724  vim deployment.yml 
+  725* 
+  726  docker pull nginx:latest
+  727  docker images
+  728  docker images ls
+  729  docker rmi nginx:latest
+  730  docker images ls
+  731  docker images 
+  732  docker pull nginx:latest
+  733  docker images 
+  734  docker run -it  nginx:latest
+  735* 
+  736  docker images 
+  737  docker exec -it my_nginx_container 2cd1d97f893f bash
+  738  docker ps -a
+  739  docker exec -it 381b4fed368a bash
+  740  docker run -it  nginx:latest
+  741* d
+  742  docker ps -a
+  743  docker exec -it nginx:latest bash
+  744  docker run -it  nginx:latest
+  745  docker exec -it nginx:latest bash
+  746  docker images
+  747  docker ps
+  748  docker ps -a
+  749  docker run -it  nginx:latest
+  750  docker run -it  nginx:latest /bin/bash
+  751  docker ps
+  752  docker ps -a
+  753  docker ps -a | nginx
+  754  docker ps -a | nginx:latest
+  755  docker ps -a
+  756  docker commit 2eda991957f6 maplai-image
+  757  docker images
+  758  ls -l
+  759  docker push vairavarumu/maplai-image:latest
+  760  docker push maplai-image:latest
+  761  docker push vairavarumu/maplai-image
+  762  docker push vairavarumu/maplai-image:latest
+  763  docker ps
+  764  docker images
+  765  docker tag maplai-image:latest vairavarumu/maplai-image:latest
+  766  docker push vairavarumu/maplai-image:latest
+  767  cd
+  768  ls
+  769  cd deploy_test/
+  770  ls
+  771  cd 
+  772  vim k8s-deploy.py
+  773  ls
+  774  cd deploy_test/
+  775  ls
+  776  cd
+  777  cd demo_deploy/
+  778  ls
+  779  cd deploy_demo/
+  780  ls
+  781  cd k8s
+  782  ls
+  783  vim deployment.yml 
+  784  kubectl apply -f deployment.yml 
+  785  vim deployment.yml 
+  786  kubectl apply -f deployment.yml 
+  787  kubectl get svc
+  788  minikube service maplai-service --url
+  789  kubectl get svc
+  790  minikube service maplai-service --url
+  791  vim deployment.yml 
+  792  kubectl apply -f deployment.yml 
+  793  minikube service maplai-service --url
+  794  kubectl get svc
+  795  kubectl get nodes -o wide
+  796  minikube service maplai-service --url
+  797  ls
+  798  cat deployment.yml 
+  799  vim deployment.yml 
+  800  cat deployment.yml 
+  801  kubectl apply -f deployment.yml 
+  802  kubectl get svc
+  803  minikube service maplai-service --url
+  804  vim deployment.yml 
+  805  kubectl apply -f deployment.yml 
+  806  minikube service maplai-service --url
+  807  cat  deployment.yml 
+  808  minikube ip
+  809  ping http://192.168.49.2:31267
+  810  docker ls
+  811  docker images
+  812  docker ps
+  813  docker ps -a
+  814  docker run -it 2eda991957f6 /bin/bas
+  815  docker images
+  816* 
+  817  docker images
+  818  docker run -it 2cd1d97f893f /bin/bash
+  819* 
+  820  docker run -it 5888caa3ad32 /bin/bash
+  821* 
+  822  docker tag maplai-image:v1 vairavarumu/maplai-image:v1
+  823  docker push vairavarumu/maplai-image:v1
+  824  ls
+  825  vim deployment.yml 
+  826  cat deployment.yml 
+  827  kubectl apply -f deployment.yml 
+  828  kubectl get pods
+  829  kubectl log maplai-deployment-5ccbf5b6b5-t9g6q
+  830  kubectl log pod
+  831  kubectl logs maplai-deployment-5ccbf5b6b5-t9g6q
+  832  kubectl get pods
+  833  vim deployment.yml 
+  834  kubectl apply -f deployment.yml 
+  835  kubectl get pods
+  836  kubectl logs maplai-deployment-54c54b76d8-j7j7d
+  837  vim deployment.yml 
+  838  cat  deployment.yml 
+  839  minikube image load maplai-image
+  840  kubectl logs maplai-deployment-54c54b76d8-j7j7d
+  841  kubectl apply -f deployment.yml 
+  842  vim deployment.yml 
+  843  kubectl apply -f deployment.yml 
+  844  kubectl get pods
+  845  kubectl logs maplai-deployment-85954d759c-fmzbs
+  846  kubectl get pods
+  847  kubectl logs nginx-deployment-97666ffd5-qgkkl
+  848  kubectl logs pod  maplai-deployment-85954d759c-fmzbs
+  849  kubectl logs  maplai-deployment-85954d759c-fmzbs
+  850  kubectl api-resources
+  851  kubectl cluster-info
+  852  kubectl cluster-info dumpt
+  853  kubectl cluster-info dumpp
+  854  kubectl cluster-info dump
+  855  kubectl cluster-info kubectl get deployment
+  856  kubectl get ns
+  857  kubectl version
+  858  llss
+  859  ls
+  860  cd ..
+  861  docker images
+  862  DOCKER IMAGES
+  863  docker images
+  864  docker run -it vairavarumu/maplai-image /bin/bash
+  865  ls
+  866  cd k8s/
+  867  ls
+  868  kubectl get pods
+  869  kubectl logs vairavarumu/maplai-image
+  870  kubectl logs maplai-deployment-85954d759c-fmzbs
+  871  kubectl describe pod maplai-deployment-85954d759c-fmzbs
+  872  vim deployment.yml 
+  873  kubectl logs maplai-deployment-85954d759c-fmzbs -c maplai
+  874  vim deployment.yml 
+  875  k get po
+  876  cd
+  877  vi .bashrc
+  878  . .bashrc
+  879  cd -
+  880  kp map
+  881  cd 
+  882  vi .bashrc
+  883  . .bashrc
+  884  kp map
+  885  cd -
+  886  docker run -it debug vairavarumu/maplai-image /bin/bash
+  887  docker run -it debug vairavarumu/maplai-image:v1 /bin/bash
+  888  docker run -it debug --image=vairavarumu/maplai-image:v1 /bin/bash
+  889  kubectl run -it debug --image=vairavarumu/maplai-image:v1 -- /bin/bash
+  890  cd ..
+  891  ls
+  892  docker ps
+  893  docker images
+  894  docker -it vairavarumu/maplai-image /bin/bash
+  895  docker run -it vairavarumu/maplai-image /bin/bash
+  896  docker images
+  897  docker commit sample-container vairavarumu/maplai-image
+  898  docker commit  vairavarumu/maplai-image
+  899  docker commit  vairavarumu/maplai-image:v1
+  900  docker commit 73164b25cfee
+  901  docker ps
+  902  docker ps -a
+  903  docker commit 296404c9df23
+  904  docker images
+  905  docker tag 296404c9df23 vairavarumu/maplai-image:v1
+  906  docker tag faf7aae9954f vairavarumu/maplai-image:v2
+  907  docker images
+  908  docker push vairavarumu/maplai-image:v2
+  909  ls
+  910  cd k8s/
+  911  vim deployment.yml 
+  912  kubectl apply -f deployment.yml 
+  913  kubectl get pods
+  914  kubectl logs maplai-deployment-6767f7bf46-nmlmr
+  915* kubectl describe pod maplai-deployment-6767f7bf46-nmlmr
+  916* 
+  917  cd ..
+  918  docker pull vairavarumu/deploy-test:v1
+  919  docker images
+  920  cd k8s/
+  921  vim deployment.yml 
+  922  kubectl apply -f deployment.yml 
+  923  kubectl get pods
+  924  kubectl logs maplai-deployment-77b9bbf47f-vknbf
+  925  kubectl describe pod  maplai-deployment-77b9bbf47f-vknbf
+  926  vim deployment.yml 
+  927  kubectl apply -f deployment.yml 
+  928  kubectl get pods
+  929  kubectl logs maplai-deployment-77b9bbf47f-vknbf
+  930  kubectl describe pod  maplai-deployment-77b9bbf47f-vknbf
+  931  kubectl get deployment
+  932  kubectl delete nginx-deployment
+  933  kubectl delete deployment nginx-deployment
+  934  kubectl get deployment
+  935  kubectl delete deployment maplai-deployment maplai
+  936  kubectl get deployment
+  937  kubectl get pods
+  938  kubectl delete pod debug
+  939  kubectl get pods
+  940  kubectl apply -f deployment.yml 
+  941  kubectl get pod
+  942  cat deployment.yml 
+  943  vim deployment.yml 
+  944  kubectl apply -f deployment.yml 
+  945  kubectl get pod
+  946  kubectl logs maplai-56bd6bd5c7-bpptt
+  947  kubectl exec -it maplai-56bd6bd5c7-bpptt
+  948  kubectl exec -it maplai-56bd6bd5c7-bpptt /bin/bash
+  949  vim deployment.yml 
+  950  kubectl apply -f deployment.yml 
+  951  kubectl get pod
+  952  kubectl exec -it maplai-78b4b9947-7nz4w /bin/bash
+  953  cd ..
+  954  docker images
+  955  vim nginx-deployment.yml
+  956  kubectl apply -f nginx-deployment.yml 
+  957  vim nginx-deployment.yml
+  958  kubectl get service
+  959  kubectl get pods
+  960  kubectl get svc
+  961  minikube service maplai-service --url
+  962  minikube service nginx-service--url
+  963  minikube service nginx-service --url
+  964  kubectl get pod
+  965  kubectl exec -it nginx-deployment-96b9d695-k8qm2 /bin/bash
+  966  kubectl get pod
+  967  kubectl logs nginx-deployment-96b9d695-k8qm2
+  968  cat ~/.kube/config
+  969  git pull vairavarmugam/deploy-test
+  970  git status
+  971  git diff
+  972  cd
+  973  ls
+  974  cd deploy_test/
+  975  ls
+  976  git remote -v
+  977  git status
+  978  git diff
+  979  git checkout -- app.py
+  980  git diff
+  981  git status
+  982  git pull
+  983  cat README.md 
+  984  docker build -t vairavarumu/deploy-test:v3
+  985  docker build -t vairavarumu/deploy-test:v3 .
+  986  docker ps
+  987  docker ps -a
+  988  docker tag b5f4d31ed07c vairavarumu/deploy-test:v3
+  989  docker tag e3126c36b449 vairavarumu/deploy-test:v3
+  990  docker ps -a
+  991  docker images
+  992  ls
+  993  docker push vairavarumu/deploy-test:v3
+  994  ls
+  995  vim pyhton-deployment.yml
+  996  kubectl apply -f pyhton-deployment.yml 
+  997  vim pyhton-deployment.yml
+  998  kubectl apply -f pyhton-deployment.yml 
+  999  kubectl get pods
+ 1000  vim pyhton-deployment.yml
+ 1001  kubectl apply -f pyhton-deployment.yml 
+ 1002  kubectl get pods
+ 1003  vim pyhton-deployment.yml
+ 1004  cat pyhton-deployment.yml
+ 1005  vim pyhton-deployment.yml
+ 1006* 
+ 1007  kubectl get pods
+ 1008  kubectl exec -it python-deployment-7878d6fcbc-5djhf /bin/bash
+ 1009  kubectl get pods
+ 1010  kubectl get svc
+ 1011  minikube service nginx-service --url
+ 1012  minikube service python-service  --url
+ 1013  kubectl get pods
+ 1014  kubectl exec -it python-deployment-7878d6fcbc-5djhf /bin/bash
+ 1015  ls
+ 1016  lss
+ 1017  cd
+ 1018  ls
+ 1019  cd demo_deploy/
+ 1020  ls
+ 1021  cd deploy_demo/
+ 1022* 
+ 1023  cd k8s
+ 1024  ls
+ 1025  docker images
+ 1026  kubectl get poss
+ 1027  kubectl get pods
+ 1028  kubectl exec -it nginx-deployment-96b9d695-k8qm2 /bin/bash
+ 1029  ls
+ 1030  kubectl get svc
+ 1031  minikube service nginx-service  --url
+ 1032  ls
+ 1033  cd
+ 1034  ls
+ 1035  cd deploy_test/
+ 1036  ls
+ 1037  docker images
+ 1038  kubectl get pods
+ 1039  kubectl exec -it python-deployment-7878d6fcbc-5djhf /bin/bash
+ 1040  kubectl get svc
+ 1041  minikube service python-service  --url
+ 1042  kubectl exec -it python-deployment-7878d6fcbc-5djhf /bin/bash
+ 1043  minikube service python-service  --url
+ 1044  kubectl exec -it python-deployment-7878d6fcbc-5djhf /bin/bash
+ 1045  kubectl get svc
+ 1046  ls
+ 1047  kubectl get svc
+ 1048  kubectl exec -it python-deployment-7878d6fcbc-5djhf /bin/bash
+ 1049  minikube service python-service  --url
+ 1050  kubectl exec -it python-deployment-7878d6fcbc-5djhf /bin/bash
+ 1051  git status
+ 1052  git pull vairavarmugam/deploy-test
+ 1053  git pull vairavarmugam/deploy-test:v3
+ 1054  git pull 
+ 1055  history
+ 1056  cat README.md 
+ 1057  docker build -t vairavarumu/deploy-test:v4 .
+ 1058  docker images
+ 1059  docker build -t vairavarumu/deploy-test:v4 .
+ 1060  git pull 
+ 1061  docker build -t vairavarumu/deploy-test:v4 .
+ 1062  git pull 
+ 1063  docker build -t vairavarumu/deploy-test:v4 .
+ 1064  git pull 
+ 1065  docker build -t vairavarumu/deploy-test:v4 .
+ 1066  docker images
+ 1067  docker push vairavarumu/deploy-test:v4
+ 1068  ls
+ 1069  vvim pyhton-deployment.yml 
+ 1070  vim pyhton-deployment.yml 
+ 1071  kubectl apply -f pyhton-deployment.yml 
+ 1072  kubectl get pods
+ 1073  kubectl exec -it python-deployment-cf5d756fd-hglw5 /bin/bash
+ 1074  kubectl get svc
+ 1075  minikube service python-service  --url
+ 1076  kubectl exec -it python-deployment-cf5d756fd-hglw5 /bin/bash
+ 1077  git pull 
+ 1078* 
+ 1079  history
+ 1080  docker build -t vairavarumu/deploy-test:v5 .
+ 1081  docker images
+ 1082  docker push vairavarumu/deploy-test:v5
+ 1083  vim pyhton-deployment.yml 
+ 1084  kubectl apply -f pyhton-deployment.yml 
+ 1085  kubectl get svc
+ 1086  minikube service python-service  --url
+ 1087  kubectl get pods
+ 1088  kubectl exec -it python-deployment-6c5d9d665c-xvrkw /bin/bash
+ 1089  ls
+ 1090  kubectl get nodes
+ 1091  kubectl describe node minikube
+ 1092  kubectl top node minikube
+ 1093  ls
+ 1094  less Dockerfile 
+ 1095  cd
+ 1096  ls
+ 1097  cd demo_deploy/
+ 1098  ls
+ 1099  cd deploy_demo/
+ 1100  ls
+ 1101  less nginx-deployment.yml 
+ 1102  top nginx-deployment.yml 
+ 1103  head nginx-deployment.yml 
+ 1104  tail nginx-deployment.yml 
+ 1105  cd
+ 1106  umassk
+ 1107  umask
+ 1108  ls
+ 1109  cd deploy_test/
+ 1110  ls
+ 1111  git status
+ 1112  git add
+ 1113  git add .
+ 1114  git push 
+ 1115  git status
+ 1116  git add.
+ 1117  git add .
+ 1118  git status
+ 1119  git push
+ 1120  pwd
+ 1121  ls
+ 1122  git origin
+ 1123  git remote -v
+ 1124  git status
+ 1125  git push
+ 1126  git add .
+ 1127  git commit -m "changes done"
+ 1128  git push
+ 1129  ls
+ 1130  vim README.md 
+ 1131  git status
+ 1132  git branch dev
+ 1133  git checkout dev
+ 1134  git branch
+ 1135  git add .
+ 1136  git status
+ 1137  ls
+ 1138  git add .
+ 1139  git commit -m "new branch created"
+ 1140  git push
+ 1141  git push --set-upstream origin dev
+ 1142  vim image-pull.py
+ 1143  docker images
+ 1144  pyhton3 image-pull.py 
+ 1145  python3 image-pull.py 
+ 1146  vim image-pull.py
+ 1147  python3 image-pull.py 
+ 1148  vim image-pull.py
+ 1149  python3 image-pull.py 
+ 1150  docker images
+ 1151  cat image-pull.py 
+ 1152  docker iamages
+ 1153  docker images
+ 1154  docker rmi c3e90918b0cf 5f7ea55e8154
+ 1155  ls
+ 1156  vim image-pull.py 
+ 1157  python image-pull.py --image mysql --tag 5.7 --yaml pyhton-deployment.yml
+ 1158  python3 image-pull.py --image mysql --tag 5.7 --yaml pyhton-deployment.yml
+ 1159  vim pyhton-deployment.yml 
+ 1160  python3 image-pull.py --image mysql --tag 5.7 --yaml pyhton-deployment.yml
+ 1161  docker images
+ 1162  python3 image-pull.py --image mysql --tag 8.0 --yaml pyhton-deployment.yml
+ 1163  docker images
+ 1164  vim README.md 
+ 1165  ls
+ 1166  git status
+ 1167* 
+ 1168  git addd .
+ 1169  git add .
+ 1170  git status
+ 1171  git commit -m "changes added"
+ 1172  git push
+ 1173  ls
+ 1174  vim image-pull.py 
+ 1175  cat image-pull.py 
+ 1176  docker images
+ 1177  cat pyhton-deployment.yml 
+ 1178  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1179  docker images
+ 1180  kubectl get pods
+ 1181  cat image-pull.py 
+ 1182  vim  image-pull.py 
+ 1183  docker images 
+ 1184  docker rmi 5107333e08a8
+ 1185  docker rmi ae2502152260
+ 1186  docker rmi 9340b388320f
+ 1187  docker images 
+ 1188  kubectl get pods
+ 1189  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1190  kubectl get pods
+ 1191  kubectl logs python-deployment-674dfcd597-vnzz7
+ 1192  kubectl describe pod python-deployment-674dfcd597-vnzz7
+ 1193  kubectl get pods
+ 1194  kubectl logs python-deployment-674dfcd597-vnzz7
+ 1195  vim pyhton-deployment.yml 
+ 1196  python3 image-pull.py --image mysql --tag 5.8 --yaml pyhton-deployment.yml
+ 1197  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1198  kubectl get pods
+ 1199  vim pyhton-deployment.yml 
+ 1200  cat pyhton-deployment.yml 
+ 1201  vim pyhton-deployment.yml 
+ 1202  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1203  ls
+ 1204  vim image-pull.py 
+ 1205  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1206  vim image-pull.py 
+ 1207  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1208  vim image-pull.py 
+ 1209  vim pyhton-deployment.yml 
+ 1210  cat pyhton-deployment.yml 
+ 1211  vim pyhton-deployment.yml 
+ 1212  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1213  vim pyhton-deployment.yml 
+ 1214  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1215  kubectl get pods
+ 1216  kubectl logs python-deployment-7f7774bfcc-mz4r9
+ 1217  docker images
+ 1218  python3 image-pull.py --image vairavarumu/deploy-test --tag v3 --yaml pyhton-deployment.yml
+ 1219  kubectl get pods
+ 1220  kubectl logs python-deployment-7f7774bfcc-mz4r9
+ 1221  vim pyhton-deployment.yml 
+ 1222  python3 image-pull.py --image vairavarumu/deploy-test --tag v3 --yaml pyhton-deployment.yml
+ 1223  kubectl get pods
+ 1224  kubectl logs python-deployment-6fc556bf7f-g7mr2
+ 1225  vim pyhton-deployment.yml 
+ 1226  kubectl get pods
+ 1227  vim pyhton-deployment.yml 
+ 1228  python3 image-pull.py --image mysql --tag 8.1 --yaml pyhton-deployment.yml
+ 1229  kubectl get pods
+ 1230  kubectl logs python-deployment-6fb7789974-xhfw7
+ 1231  ls
+ 1232  vim bash-script.sh
+ 1233  chmod 777 bash-script.sh 
+ 1234  docker images
+ 1235  docker rmi nginx
+ 1236  docker rmi alpine
+ 1237  docker rmi alpine:3.20
+ 1238  ./bash-script.sh 
+ 1239  ./bash-script.sh alpine:3.20
+ 1240  vim bash-script.sh
+ 1241  ls
+ 1242  cat image-pull.py
+ 1243  vim bash-script.sh
+ 1244  ./bash-script.sh alpine:3.20
+ 1245  vim bash-script.sh
+ 1246  ./bash-script.sh alpine:3.20
+ 1247  vim bash-script.sh
+ 1248  ./bash-script.sh alpine:3.20
+ 1249  ls
+ 1250  vim bash-script.sh
+ 1251  kubectl get pods
+ 1252  ./bash-script.sh alpine:3.20
+ 1253  kubectl get pods
+ 1254  vim pyhton-deployment.yml 
+ 1255  cat pyhton-deployment.yml 
+ 1256  vim pyhton-deployment.yml 
+ 1257  ./bash-script.sh alpine:3.20
+ 1258  vim bash-script.sh
+ 1259  ./bash-script.sh alpine:3.20
+ 1260  vim pyhton-deployment.yml 
+ 1261  ./bash-script.sh alpine:3.20
+ 1262  kubectl get pods
+ 1263  vim pyhton-deployment.yml 
+ 1264  vim bash-script.sh
+ 1265  ./bash-script.sh alpine:3.20
+ 1266  kubectl get pods
+ 1267  vim pyhton-deployment.yml 
+ 1268  ./bash-script.sh golang:latest
+ 1269  kubectl get pods
+ 1270  kubectl logs alpine-deployment-7b78944b99-z2tbk
+ 1271  vim bash-script.sh
+ 1272  vim pyhton-deployment.yml 
+ 1273  ./bash-script.sh golang:latest
+ 1274  vim bash-script.sh
+ 1275  ./bash-script.sh golang:latest
+ 1276  kubectl get pods
+ 1277  ./bash-script.sh golang:latest
+ 1278  vim bash-script.sh
+ 1279  vim sample-bash.sh
+ 1280  chmod 777 sample-bash.sh 
+ 1281  ./sample-bash.sh 
+ 1282  vim sample-bash.sh
+ 1283  ./sample-bash.sh 
+ 1284  vim pyhton-deployment.yml 
+ 1285  git status
+ 1286  git diff
+ 1287  git diff pyhton-deployment.yml
+ 1288  git checkout -- pyhton-deployment.yml
+ 1289  git status
+ 1290  vim sample-bash.sh
+ 1291  ls
+ 1292  ./bash-script.sh 
+ 1293  vim bash-script.sh 
+ 1294  vim pyhton-deployment.yml 
+ 1295  ./bash-script.sh 
+ 1296  cat pyhton-deployment.yml 
+ 1297  vim pyhton-deployment.yml 
+ 1298  ./bash-script.sh 
+ 1299  kubectl get pods
+ 1300  ./bash-script.sh golang:latest
+ 1301  vim pyhton-deployment.yml 
+ 1302  vim bash-script.sh 
+ 1303  history >> linux-commands.txt
